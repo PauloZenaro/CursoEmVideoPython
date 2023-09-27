@@ -1,0 +1,8 @@
+n = input("digite algo: ")
+print('A classe primaria é :', type(n))
+print('é texto? :', n.isalpha())
+print('é Alphanumerico? :', n.isalnum())
+print('é caixa alta? :', n.isupper())
+print('é caixa baixa? :', n.islower())
+print('é somente espaço? :', n.isspace())
+print('São somente anumeros? :', n.isnumeric())
